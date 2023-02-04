@@ -1,0 +1,24 @@
+{
+  "name": "servibien_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "watch": "npx tailwindcss -i ./src/app.css -o ./src/public/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "DarwinTnT",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
